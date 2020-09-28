@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <title>Shopping cart</title>
+</head>
+<body>
+    <div class="container">
+        <div class="main-box">
+            <div class="box">
+                <div class="box-1">
+                    <div class="img-box">
+                         <img src="product-1.png" alt="">
+                         
+                    </div>
+                   
+                    <h5>iPhone 11 128GB Black</h5>
+                </div>
+                <div class="box-2">
+                    <button id="mbl-min"><i class="fa fa-minus"></i></button>
+                    <button id="mbl-add"><i class="fa fa-plus" ></i></button>
+                </div>
+                <div class="box-3">
+                    <h5 id="mbl_price">$1219</h5>
+                    <div class="shopping_cart">
+                        <i class="fa fa-shopping-cart"></i>
+                        <small class="quantity" id="mbl-count">0</small>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="main-box">
+            <div class="box">
+                <div class="box-1">
+                    <div class="img-box">
+                         <img src="product-2.png" alt="">
+                         
+                    </div>
+                   
+                    <h5>iPhone 11 silicon case-Black</h5>
+                </div>
+                <div class="box-2">
+                    <button id="catch-min"><i class="fa fa-minus"></i></button>
+                    <button id="catch-add"><i class="fa fa-plus"></i></button>
+                </div>
+                <div class="box-3">
+                    <h5 id="catch_price">$59</h5>
+                    <div class="shopping_cart">
+                        <i class="fa fa-shopping-cart"></i>
+                        <small class="quantity" id="catch-count">0</small>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="main-box">
+            <div class="cash">
+                <p>Subtotal:</p>
+                <p id=sub-total>0</p>
+            </div>
+            <div class="cash">
+                <p>Tax:</p>
+                <p>0</p>
+            </div>
+            <div class="cash">
+                <p>Total</p>
+                <p id=total>0</p>
+            </div>
+        </div>
+
+        <div class="button-div">
+            <button class="btn">Check Out</button>
+        </div>
+        
+    </div>
+   
+    <script src="index.js"></script>
+</body>
+</html>
